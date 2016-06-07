@@ -4,8 +4,8 @@ import mongoose from 'mongoose';
 
 var GameSchema = new mongoose.Schema({
   name: String,
-  info: String,
-  active: Boolean
+  plateform: String,
+  genre: Boolean
 });
 
 export default mongoose.model('Game', GameSchema);
